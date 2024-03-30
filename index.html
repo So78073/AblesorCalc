@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalcLuck.ro</title>
+    <link rel="stylesheet" href="/styles/css001.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Calc<span>Luckro</span></h2>
+
+        <label for="Produto">Produto:</label>
+        <input type="number" id="produto">
+
+        <label for="frete">Frete:</label>
+        <input type="number" id="frete">
+
+        <label for="Impostos">Impostos:</label>
+        <input type="number" id="impostos">
+
+        <label for="porcentagem">Porcentagem do Lucro</label>
+        <input type="number" id="porcentagem" placeholder="Digite a porcentagem">
+
+        <div class="box">
+            <p id="lucroLiqui">Lucro Total: </p>
+            <p id="valFinal">Valor Final:</p>
+        </div>
+
+
+        <button onclick="calcular()">Calcular</button>
+
+    </div>
+
+
+
+    <script src="/scripts/main.js"></script>
+</body>
+
+</html>

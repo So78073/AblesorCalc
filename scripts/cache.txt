@@ -1,0 +1,11 @@
+document.getElementById('resultado').innerHTML = `
+    <p>Quantia: R$ ${quantia.toFixed(2)}</p>
+    <p>Porcentagem: ${porcentagem}%</p>
+    <p>Valor da porcentagem: R$ ${valorPorcentagem.toFixed(2)}</p>
+    <p>Total após a porcentagem: R$ ${total.toFixed(2)}</p>
+`;
+
+
+Lucro Líquido: R$ 20.60
+
+(falar o valor do produto final)
